@@ -69,7 +69,7 @@ public class HJProgress: UIView {
             }
         }
     }
-    
+    ///添加之后，进度条终点出现 view
     public var viewDot: UIView? {
         didSet {
             if type != .line {
@@ -95,17 +95,17 @@ public class HJProgress: UIView {
         let newView = HJProgressLineView(frame: bounds)
         return newView
     }()
-    
+    ///底部圆环
     private lazy var viewBottom: HJBottomView = {
         let newView = HJBottomView(frame: bounds)
         return newView
     }()
-    
+    ///圆环进度条
     private lazy var viewCircle: HJCircleView = {
         let newView = HJCircleView(frame: bounds)
         return newView
     }()
-    
+    ///仪表盘
     private lazy var viewLine: HJLineCircleView = {
         let newView = HJLineCircleView(frame: bounds)
         return newView

@@ -15,7 +15,7 @@ public class HJData: NSObject {
     ///线宽
     public var lineWidth: CGFloat = 2.0
      
-    ///线间距 间断进度条专属  直线计算长度，园计算周长
+    ///线间距 间断进度条专属  直线计算长度，圆计算周长
     public var lineDashPattern: [NSNumber] = [15 , 5]
        
     ///圆直径
@@ -32,11 +32,11 @@ public class HJData: NSObject {
     public var isGradient: Bool = false
     ///渐变颜色
     public var colors: [CGColor] = [UIColor.red.cgColor, UIColor.green.cgColor]
-    
+    ///渐变色位置
     public var locations: [NSNumber] = [0, 1]
-    
+    ///渐变色起始位置
     public var startPoint: CGPoint = CGPoint(x: 0, y: 0)
-    
+    ///渐变色结束位置
     public var endPoint: CGPoint = CGPoint(x: 1, y: 0)
     
     
@@ -44,3 +44,6 @@ public class HJData: NSObject {
         super.init()
     }
 }
+
+
+

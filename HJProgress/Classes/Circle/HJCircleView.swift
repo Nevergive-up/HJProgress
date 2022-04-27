@@ -70,7 +70,7 @@ class HJCircleView: UIView {
                                       clockwise: true)
         return bezierPath
     }()
-    ///背景圆环
+    ///进度圆环
     private lazy var progressLayer: CAShapeLayer = {
         let layer = CAShapeLayer()
         layer.frame         = bounds
@@ -121,3 +121,7 @@ class HJCircleView: UIView {
 extension HJCircleView: CAAnimationDelegate {
     
 }
+
+
+
+

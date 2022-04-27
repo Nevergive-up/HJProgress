@@ -5,6 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/HJProgress.svg?style=flat)](https://cocoapods.org/pods/HJProgress)
 [![Platform](https://img.shields.io/cocoapods/p/HJProgress.svg?style=flat)](https://cocoapods.org/pods/HJProgress)
 
+## 图片展示
+https://img-blog.csdnimg.cn/5ad5ed095ca84a97912cf63594af8ea5.gif
+CSDN 描述
+https://blog.csdn.net/u014651417/article/details/124461398
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

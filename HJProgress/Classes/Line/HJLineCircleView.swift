@@ -69,7 +69,7 @@ class HJLineCircleView: UIView {
         
         return layer
     }()
-    ///背景
+    ///进度条
     private lazy var progressLayer: CAShapeLayer = {
         let layer = CAShapeLayer()
         layer.frame         = bounds

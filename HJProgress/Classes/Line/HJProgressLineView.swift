@@ -20,7 +20,12 @@ class HJProgressLineView: UIView {
     ///进度
     public var progress: CGFloat = 0.0 {
         didSet {
+            CATransaction.begin()
+            CATransaction.setDisableActions(false)
+            CATransaction.setAnimationTimingFunction(CAMediaTimingFunction(name: .linear))
+            CATransaction.setAnimationDuration(data.duration)
             progressLayer.strokeEnd = progress
+            CATransaction.commit()
         }
     }
     
@@ -45,7 +50,7 @@ class HJProgressLineView: UIView {
         bezierPath.addLine(to: CGPoint(x: bounds.size.width, y: 0))
         return bezierPath
     }()
-    ///背景
+    ///背景线
     private lazy var backLayer: CAShapeLayer = {
         let layer = CAShapeLayer()
         layer.fillColor = UIColor.clear.cgColor
@@ -55,7 +60,7 @@ class HJProgressLineView: UIView {
         layer.path = path.cgPath
         return layer
     }()
-    ///进度条
+    ///进度条线
     private lazy var progressLayer: CAShapeLayer = {
         let layer = CAShapeLayer()
         layer.fillColor = UIColor.clear.cgColor

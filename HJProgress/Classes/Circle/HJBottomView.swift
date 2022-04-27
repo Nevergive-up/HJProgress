@@ -54,3 +54,7 @@ class HJBottomView: UIView {
         return layer
     }()
 }
+
+
+
+
