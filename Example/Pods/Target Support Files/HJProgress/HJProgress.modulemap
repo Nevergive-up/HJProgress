@@ -1,0 +1,6 @@
+framework module HJProgress {
+  umbrella header "HJProgress-umbrella.h"
+
+  export *
+  module * { export * }
+}

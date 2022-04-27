@@ -1,0 +1,16 @@
+PODS:
+  - HJProgress (1.0.0)
+
+DEPENDENCIES:
+  - HJProgress (from `../`)
+
+EXTERNAL SOURCES:
+  HJProgress:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HJProgress: 17dadfb553d28ea3da34e6f4132c2c852a04052f
+
+PODFILE CHECKSUM: 94b42c904da98d5d043e84b44a5e3e1412195200
+
+COCOAPODS: 1.11.2
