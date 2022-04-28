@@ -7,7 +7,6 @@
 
 ## 图片展示
 ![image](HJProgress.gif)
-![image](https://img-blog.csdnimg.cn/5ad5ed095ca84a97912cf63594af8ea5.gif)
 
 CSDN  
 https://blog.csdn.net/u014651417/article/details/124461398
@@ -16,7 +15,7 @@ https://www.jianshu.com/p/cc3cac5ce967
 
 ## CocoaPods
 ```
-pod 'TYAttributedLabel', '~> 2.6.2'
+pod 'HJProgress'
 ```
 
 
